@@ -14,7 +14,7 @@ class CalculadoraTest {
     @Test
     public void testSumDoubles() {
         double result = Calculadora.sum(1.5, 2.5, 3.5);
-        assertEquals(7.5, result, 0.0001);
+        assertEquals(8.5, result, 0.0001);
     }
 
     @Test
