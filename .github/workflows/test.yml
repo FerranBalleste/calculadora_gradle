@@ -8,6 +8,7 @@ on:
 
 jobs:
   build:
+    name: Junit Test
     runs-on: ubuntu-latest
     permissions:
       contents: read
